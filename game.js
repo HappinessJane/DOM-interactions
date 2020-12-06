@@ -50,6 +50,8 @@ function updateCounts () {
   totals.green = document.getElementsByClassName('green').length;
   totals.invisible = document.getElementsByClassName('invisible').length;
 
+  //Yaaaaassss cracked it!!! LOVE
+
   // Once you've done the counting, this function will update the display
   displayTotals(totals)
 }
