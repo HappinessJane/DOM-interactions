@@ -31,6 +31,10 @@ function makeBlue (evt) {
 
 // CREATE FUNCTION hide HERE
 
+function hide (evt) {
+  evt.target.classList.toggle('invisible')
+  updateCounts()
+
 function updateCounts () {
   var totals = {
     blue: 0,
